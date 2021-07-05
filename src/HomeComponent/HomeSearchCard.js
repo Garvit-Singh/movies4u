@@ -18,8 +18,8 @@ function HomeSearchCard(props) {
         <div className="card mt-3">
           {
             props.data.Poster !== 'N/A' ?
-            <img src={props.data.Poster} className="card-img-top" alt='no image' onClick={DetailsPage}/> :
-            <img src={blank} className="card-img-top" alt='no image' onClick={DetailsPage}/>
+            <img src={props.data.Poster} aria-hidden className="card-img-top" alt='no image' onClick={DetailsPage}/> :
+            <img src={blank} aria-hidden className="card-img-top" alt='no image' onClick={DetailsPage}/>
           }
           <div className="card-body m-0 p-0">
             <p className="card-title p-0 m-0 d-flex justify-content-center overflow-hidden" id="cardTitle" onClick={DetailsPage}>{props.data.Title}</p>

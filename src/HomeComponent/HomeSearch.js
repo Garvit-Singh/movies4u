@@ -4,8 +4,8 @@ import HomeSearchCard from './HomeSearchCard'
 
 function HomeSearch() {
   
-  const {dataState, searchState} = useContext(SearchContext)
-  console.log(searchState)
+  const {dataState} = useContext(SearchContext)
+  // console.log(searchState)
 
   return (
     <React.Fragment>

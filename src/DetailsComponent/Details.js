@@ -13,10 +13,10 @@ const spacing = {
 
 function Details(props) {
 
-  console.log(props)
-  const url = `https://www.omdbapi.com/?i=${props.movieId}&apikey=26d544e5`
+  // console.log(props)
+  const url = `https://www.omdbapi.com/?i=${props.movieId}&apikey=${process.env.apikey}`
   const [plot,setPlot] = useState([])
-  const iframeURL = `https://streamvideo.link/getvideo?key=Zis6jBIBsDQ9DsH7&video_id=${props.movieId}`
+  const iframeURL = `https://streamvideo.link/getvideo?key=${process.env.key}&video_id=${props.movieId}`
 
   useEffect(() => {
     
@@ -26,7 +26,7 @@ function Details(props) {
       setPlot(response.data)
     })
     .catch(err => console.log(err))
-  },[props.movieId])
+  },[props.movieId, url])
 
   // movie frame left with good aspect ratio                                                // get-rating and get-plot from imdb 
   // get-more like -this

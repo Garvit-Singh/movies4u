@@ -22,7 +22,7 @@ function App() {
       setData([])
       axios.get(`${url}`)
       .then(response => {
-        console.log(response,'from app.js')
+        // console.log(response,'from app.js')
         setData(response.data.Search)
       })
       .catch(err => {

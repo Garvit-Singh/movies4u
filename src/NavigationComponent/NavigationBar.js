@@ -9,7 +9,7 @@ import './Navigation.css'
 
 function NavigationBar() {
 
-  const {setIdState, setPageState, setSearchState} = useContext(PageContext)
+  const {setPageState, setSearchState} = useContext(PageContext)
   const [value, setValue] = useState('')
 
   const submitHandler = (e) => {
