@@ -1,0 +1,61 @@
+#detailsPage{
+  background-color: #333333;
+  width: 100%;
+  min-height: 100vh;
+}
+#details-head{
+  margin-top: 75px;
+}
+
+@media only screen and (max-width: 400px) {
+  #movieFrame{
+    margin: 2.5%;
+    width: 94.9%;
+    height: 25vh;
+    border: 0px;
+  }
+}
+
+@media only screen and (max-width: 568px) and (min-width: 400px) {
+  #movieFrame{
+    margin: 2.5%;
+    width: 94.9%;
+    height: 260px;
+    border: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 568px) {
+  #movieFrame{
+    margin: 2.5%;
+    width: 94.9%;
+    height: 360px;
+    border: 0px;
+  }
+}
+
+@media only screen and (max-width: 998px) and (min-width: 768px) {
+  #movieFrame{
+    margin: 1% 2.5%;
+    width: 90.9%;
+    height: 45vh;
+    border: 0px;
+  }
+}
+
+@media only screen and (min-width: 998px) {
+  #movieFrame{
+    margin: 15px;
+    width: 55%;
+    height: 480px;
+    border: 0px;
+  }
+  .movieInfo{
+    width: 44.9%;
+  }
+}
+#spanGenre{
+  padding: 5px;
+  border: none;
+  background-color: black;
+}

@@ -1,0 +1,139 @@
+@media only screen and (max-width: 576px) {
+  body {
+  background-image: url("../BackgroundImage/people-on-street-during-night-time-3644048.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-clip: initial;
+  }
+}
+@media only screen and (min-width: 576px) {
+  body {
+  background-image: url("../BackgroundImage//photo-of-building-during-night-time-921290.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+  .card{
+    width: 200px;
+  }
+}
+
+#home-section{
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+#information-section{
+  background-color: rgba(0,0, 0, 0.7);
+}
+@media only screen and (max-width: 400px){
+  .card{
+    margin: 0px 0px;
+    padding: 0% 1%;
+    border: 0px;
+    background-color: rgba(0,0, 0, 0.0);
+    width: 50%;
+    height: 225px;
+  }
+  .card img {
+    height: 205px;
+  }
+  #cardTitle{
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    height: 20px;
+  }
+}
+@media only screen and (max-width: 576px) and (min-width: 400px) {
+  .card{
+    margin: 0px 0px;
+    padding: 0% 1%;
+    border: 0px;
+    background-color: rgba(0,0, 0, 0.0);
+    width: 33.33%;
+    height: 225px;
+  }
+  .card img {
+    height: 205px;
+  }
+  #cardTitle{
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    height: 20px;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+  .card{
+    margin: 0px 0px;
+    padding: 0% 1%;
+    border: 0px;
+    background-color: rgba(0,0, 0, 0.0);
+    width: 25%;
+    height: 200px;
+  }
+  .card img {
+    height: 180px;
+  }
+  #cardTitle{
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    height: 20px;
+  }
+}
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  .card{
+    margin: 0px 0px;
+    padding: 0% 1%;
+    border: 0px;
+    background-color: rgba(0,0, 0, 0.0);
+    width: 20%;
+    height: 230px;
+  }
+  .card img {
+    height: 210px;
+  }
+  #cardTitle{
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    height: 20px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .card{
+    margin: 0px 0px;
+    border: 0px;
+    padding: 1%;
+    background-color: rgba(0,0, 0, 0.0);
+    width: 12.5%;
+    height: 225px;
+  }
+  .card img {
+    height: 200px;
+  }
+  #cardTitle{
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    height: 20px;
+  }
+}
+#cardTitle:hover {
+  color: #f0ad4e;
+}
+#homefotter{
+  background-color: rgba(0,0, 0, 0.9);
+  height: 44px;
+}
+#homefotter a {
+  margin: 5px;
+  padding: 5px;
+}
+.contactImage {
+  height: 24px;
+  width: 24px;
+}
+#homefotter a:hover{
+  border-bottom: 2px solid #85929E;
+}
